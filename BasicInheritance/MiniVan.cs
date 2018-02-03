@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BasicInheritance
 {
-    class MiniVan : Car
+    sealed class MiniVan : Car
     {
 
     }
