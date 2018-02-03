@@ -17,6 +17,8 @@ namespace Employees
             fred.SalesNumber = 50;
 
             Manager chucky = new Manager("Chucky", 50, 92, 100000, "333-23-2322", 9000);
+            double cost = chucky.GetBenefitCost();
+            Console.WriteLine("Chucky benefit cost: {0}", cost);
 
             PTSalesPerson TestPTSP = new PTSalesPerson("Alex", 24,93,500000,"1337-1337",4000,4);
             Console.WriteLine("SalesPerson {0} works {1} hours / day", TestPTSP.Name, TestPTSP.WorkHours);
