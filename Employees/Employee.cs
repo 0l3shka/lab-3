@@ -8,6 +8,16 @@ namespace Employees
 {
     partial class Employee
     {
+
+
+        public class BenefitPackage
+        {
+            public double ComputePayDeduction()
+            {
+                return 125.0;
+            }
+        }
+
         //variables
         protected string empName;
         protected int empID;

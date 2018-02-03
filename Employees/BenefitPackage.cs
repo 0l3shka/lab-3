@@ -6,11 +6,5 @@ using System.Threading.Tasks;
 
 namespace Employees
 {
-    class BenefitPackage
-    {
-        public double ComputePayDeduction()
-        {
-            return 125.0;
-        }
-    }
+    //Class BenefitPackage is inner class in Employee class
 }
